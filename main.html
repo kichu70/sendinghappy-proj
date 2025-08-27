@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SendingHappy</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <button id="one"><img src="Layer_1 (1).png" alt="" /></button>
+          <!-- <div class="two">
+          
+        </div> -->
+          <ul class="menu">
+            <li><button>Tops</button></li>
+            <li><button>Tops</button></li>
+            <li><button>Bottoms</button></li>
+            <li><button>Jump Suits/Rompers</button></li>
+          </ul>
+
+          <button class="popup-btn" onclick="openForm()">☰</button>
+        </div>
+
+        <div class="popup" id="popup">
+          <button>Home</button>
+          <button>Tops</button>
+          <button>Bottoms</button>
+          <button>Jump Suits</button>
+          <button onclick="closeForm()" id="close">Close</button>
+        </div>
+
+        <script>
+          function openForm() {
+            document.getElementById("popup").style.display = "block";
+          }
+          function closeForm() {
+            document.getElementById("popup").style.display = "none";
+          }
+        </script>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="section">
+        <div class="content-header">
+          <div>
+            <h1>
+              AYURVEDA <br />
+              HEALTH
+            </h1>
+            <p class="pera-one">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fortune
+              500 companies and world-class brands have leveraged our IT
+              consulting services to improve their digital strategies and create
+              comprehensive product roadmaps.
+            </p>
+            <button id="content-button">VIEWMORE</button>
+          </div>
+          <div class="content-img">
+            <img src="Rectangle 2727.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="second-content">
+        <h1>services</h1>
+        <p id="pera">
+          Our team will develop a practical strategy as well as manage and
+          coordinate your project compaign.we guarantee excellent results
+        </p>
+        <!-- <img id="img-group" src="Group 4198.png" alt=""> -->
+        <div class="images">
+          <div class="image-box">
+            <div class="img">
+              <img src="code.png" alt="" />
+            </div>
+            <div class="shadow">
+              <img src="s.png" alt="" />
+            </div>
+            <p>web develop</p>
+          </div>
+          <div class="image-box">
+            <div class="img">
+              <img src="drawing.png" alt="" />
+            </div>
+            <div class="shadow">
+              <img src="s.png" alt="" />
+            </div>
+            <p>ui/ux design</p>
+          </div>
+          <div class="image-box">
+            <div class="img">
+              <img src="camera.png" alt="" />
+            </div>
+            <div class="shadow">
+              <img src="s.png" alt="" />
+            </div>
+            <p>App develop</p>
+          </div>
+          <div class="image-box">
+            <div class="img">
+              <img src="watch.png" alt="" />
+            </div>
+            <div class="shadow">
+              <img src="s.png" alt="" />
+            </div>
+            <p>DevOps</p>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="ftr">
+        <img id="ftr" src="Layer_1 (1).png" alt="" />
+        <div class="medias">
+          <a href="https://www.facebook.com/limenzy/" target="_blank"
+            ><img src="f.png" alt=""
+          /></a>
+          <a
+            href="https://x.com/hashtag/LimenzyTechnologies?src=hashtag_click&f=user"
+            target="_blank"
+            ><img src="x.png" alt=""
+          /></a>
+          <a
+            href="https://in.linkedin.com/company/limenzy-technologies"
+            target="_blank"
+            ><img src="linked.png" alt=""
+          /></a>
+        </div>
+        <p>© 2023 - 2025 | Alrights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
