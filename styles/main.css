@@ -82,10 +82,7 @@ body {
   letter-spacing: -3px;
   font-weight: Poppins-Bold;
 }
-/* #pera{
-  width: 925.81px;
 
-} */
 .images {
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -128,29 +125,29 @@ body {
 
 }
 
-.footer {
-  height: 391px;
-  width: 100%;
-  background-color: #fff4e6;
-  margin-top: 160px;
-  justify-content: center;
-  display: flex;
-  padding-top: 98px;
-}
 .medias {
-  padding-left: 35px;
-  padding-top: 44px;
-  padding-bottom: 48px;
   gap: 30px;
   display: flex;
+} 
+.footer{
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.ftr{
+  display: flex;
+  padding-top: 98px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 48px;
+  row-gap: 48px;
 }
 .ftr p {
   font-family: poppins;
   font-weight: SemiBold;
+  padding-bottom: 55px;
 }
-
-/* -------------------------------------------------------------hover--------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
@@ -163,7 +160,6 @@ body {
 
 
 
-/* =================================================================media======================================================================= */
 @media only screen and (max-width: 1284px) { 
 
 .content {
@@ -195,16 +191,11 @@ body {
 
 
 }
-/* ====== */
-/* ============= */
 
 
 
-@media only screen and (max-width: 1284px) and (min-width: 992px) { /* one*/
+@media only screen and (max-width: 1284px) and (min-width: 992px) {
  
-
-/* ---------------------------------foter----------------------------- */
-
 
 
 
@@ -221,7 +212,7 @@ body {
   padding-top: 35px;
 }
 
-
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -231,11 +222,9 @@ body {
   }
 }
 
-}/**********************************************************************************************************************************************/
 @media only screen and (max-width: 992px) and (min-width: 768px) { /*two*/
 
 
-/* - --------------------------content----------------------------------------*/
 
 .content-header{
   display: block;
@@ -254,49 +243,9 @@ body {
   }
 
 
-
-/* --------------------------------footer---------------------------------- */
-
-
-
-
-
-.footer{ 
-  max-width: 100%;
-  max-height: 350px;
-  margin: 0;
-  padding: 0;
-  margin-top: 80PX;
 }
-
-.footer{ 
+@media only screen and (max-width: 768px) and (min-width: 576px) {
   
-  max-width: 100%;
-  max-height:350px;
-  margin: 0;
-  padding: 0;
-  margin-top: 80PX;
- 
-}
-
-#ftr {
-  max-width: 250px;
-  padding-top: 35px;
-}
-
-
-
-
-
-
-
-
-
-}/***********************************************************************************************************************************************/
-
-@media only screen and (max-width: 768px) and (min-width: 576px) { /* three*/
-  
-/* ------------------------content------------------------- */
 
 
 .menu {
@@ -307,54 +256,9 @@ body {
   display: block;
 
 }
-
-
-/* --------------------------------footer---------------------------------- */
-
-
-.footer{ 
   
-  max-width: 100%;
-  max-height:250px;
-  margin: 0;
-  padding: 0;
-  margin-top: 80PX;
-  display: block;
-  justify-content: center;
-}
 
-#ftr {
-  max-width: 200px;
-  padding-left: 200px;
-  padding-top: 35px;
-}
-.medias{
-  padding-left: 225px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.ftr p {
-  padding:0;
-  margin: 0;
-  padding-left: 180px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}/***********************************************************************************************************************************************/
-@media only screen and (max-width: 576px) { /* four*/
+@media only screen and (max-width: 576px) { 
 .menu {
   display: none;
 }
@@ -370,7 +274,6 @@ body {
 .content-header h1 {
   font-size: 56px;
 }
-/* ------------------------content------------------------- */
 
 .second-content {
 
@@ -408,36 +311,6 @@ body {
   .image-box img{
     width: 400px;
   }
-/* --------------------------------footer---------------------------------- */
-
-
-.footer{ 
-  
-  max-width: 100%;
-  max-height:200px;
-  margin: 0;
-  padding: 0;
-  margin-top: 80PX;
-  display: block;
-  justify-content: center;
-
-}
-
-#ftr {
-  max-width: 150px;
-  padding-left: 155px;
-  padding-top: 20px;
-}
-.medias{
-  padding-left: 155px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.ftr p {
-  padding-left: 140px;
-  padding:0;
-  margin: 0;
-  padding-left: 115px;
 }
 
 }
